@@ -20,7 +20,7 @@
 		<div class="">
 			<h1 class="">Upload de arquivos</h1>
 		</div>
-		<form:form action="${s:mvcUrl('UC#upload').build()}" method="post" enctype="multipart/form-data">
+		<form:form action="${s:mvcUrl('UC#upload').build()}" method="post" commandName="sinal" enctype="multipart/form-data">
 			
 			<div class="form-group">
 				<label for="constant">Constante para aumentar sinal:</label>
